@@ -1,0 +1,25 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/END888/END888.github.io.git"
+  },
+  "author": "yincy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/END888/END888.github.io/issues"
+  },
+  "homepage": "https://github.com/END888/END888.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.10",
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}
