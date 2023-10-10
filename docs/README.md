@@ -1,6 +1,5 @@
 ---
 home: true
-heroImage: https://excalidraw.com/apple-touch-icon.png
 heroText: END博客
 tagline: Java 菜鸟
 actionText: 快速上手 →
