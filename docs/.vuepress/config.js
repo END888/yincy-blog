@@ -9,6 +9,10 @@ module.exports = {
         }
     },
     themeConfig: {
+        // 开启每篇文章的上次更新时间
+        lastUpdated: '上次更新', // string | boolean
+        // 开启右侧菜单栏
+        subSidebar: 'auto',
         nav: [
             { text: '首页', link: '/' },
             {
