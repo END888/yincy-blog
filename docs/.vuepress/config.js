@@ -21,9 +21,18 @@ module.exports = {
                     { text: 'Github', link: 'https://github.com/mqyqingfeng' },
                     { text: '掘金', link: 'https://juejin.cn/user/712139234359182/posts' }
                 ]
-            }
+            },
+            { text: '关于我', link: '/about/About' },
         ],
         sidebar: [
+            {
+                title: '工具',
+                path: '/utils/代码热加载-JRebel 插件',
+                collapsable: false, // 不折叠
+                children: [
+                    { title: "代码热加载-JRebel 插件", path: "/utils/代码热加载-JRebel 插件" }
+                ]
+            },
             {
                 title: '欢迎学习',
                 path: '/',
