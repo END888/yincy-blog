@@ -14,42 +14,71 @@ module.exports = {
         // 开启右侧菜单栏
         subSidebar: 'auto',
         nav: [
-            { text: '首页', link: '/' },
+            {text: '首页', link: '/'},
             {
                 text: 'END 的 Java 博客',
                 items: [
-                    { text: 'Github', link: 'https://github.com/mqyqingfeng' },
-                    { text: '掘金', link: 'https://juejin.cn/user/712139234359182/posts' }
+                    {text: 'Github', link: 'https://github.com/END888'},
+                    {text: '掘金', link: 'https://juejin.cn/user/81787172952903'}
                 ]
             },
-            { text: '关于我', link: '/about/About' },
+            {text: '关于我', link: '/about/About'},
         ],
         sidebar: [
             {
-                title: '工具',
-                path: '/utils/代码热加载-JRebel 插件',
-                collapsable: false, // 不折叠
-                children: [
-                    { title: "代码热加载-JRebel 插件", path: "/utils/代码热加载-JRebel 插件" }
-                ]
-            },
-            {
-                title: '欢迎学习',
+                title: '知识点篇',
                 path: '/',
-                collapsable: false, // 不折叠
+                collapsable: true,
                 children: [
-                    { title: "学前必读", path: "/" }
+                    {
+                        title: "Java 基础",
+                        collapsable: false,
+                        path: '/knowledgePoint/Java 基础',
+                    },
+                    {
+                        title: "MySQL",
+                        collapsable: false,
+                        path: '/knowledgePoint/MySQL',
+                    },
+                    {
+                        title: "Redis",
+                        collapsable: false,
+                        path: '/knowledgePoint/Redis',
+                    },
+                    {
+                        title: "Spring",
+                        collapsable: false,
+                        path: '/knowledgePoint/Spring',
+                    },
+                    {
+                        title: "SpringBoot",
+                        collapsable: false,
+                        path: '/knowledgePoint/SpringBoot',
+                    },
+                    {
+                        title: "SpringCloud",
+                        collapsable: false,
+                        path: '/knowledgePoint/SpringCloud',
+                    },
                 ]
             },
             {
-                title: "基础学习",
+                title: "技术要点篇",
                 path: '/handbook/ConditionalTypes',
-                collapsable: false, // 不折叠
+                collapsable: true,
                 children: [
-                    { title: "条件类型", path: "/handbook/ConditionalTypes" },
-                    { title: "泛型", path: "/handbook/Generics" }
+                    {title: "条件类型", path: "/handbook/ConditionalTypes"},
+                    {title: "泛型", path: "/handbook/Generics"}
                 ],
-            }
+            },
+            {
+                title: '工具篇',
+                path: '/utils/代码热加载-JRebel 插件',
+                collapsable: true,
+                children: [
+                    {title: "代码热加载-JRebel 插件", path: "/utils/代码热加载-JRebel 插件"}
+                ]
+            },
         ]
     }
 }
